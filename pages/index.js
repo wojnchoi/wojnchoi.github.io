@@ -1,64 +1,46 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Layout.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>wojnchoi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>WEB PAGE</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code} style={{backgroundColor: "#E8E8E8"}}>#include&lt;woojin.h&gt;</code>
         </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <div className={styles.contents}>
+            <p id="abt">Currently student. I like to code in C language. Also I'm a bad coder.</p>
+            <p id="pjt">These are the projects I've been working on.</p>
+          <div className={styles.grid}>
+            <a href="#" className={styles.card}>
+              <h3>element 1&rarr;</h3>
+              <p>description element 1</p>
+            </a>
+            <a href="#" className={styles.card}>
+              <h3>element 2&rarr;</h3>
+              <p>description element 2</p>
+            </a>
+            <a href="#" className={styles.card}>
+              <h3>element 3&rarr;</h3>
+              <p>description element 3</p>
+            </a>
+            <a href="#" className={styles.card}>
+              <h3>element 4&rarr;</h3>
+              <p>description element 4</p>
+            </a>
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <a href="https://github.com/wojnchoi" target="_blank">GitHub{' '}</a>
       </footer>
     </div>
   )
