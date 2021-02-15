@@ -38,3 +38,10 @@ ul {
 li {
   text-align: -webkit-match-parent;
 }
+
+.active {
+  background-color: #000;
+}
+.indicators {
+  margin-right: 3em;
+}

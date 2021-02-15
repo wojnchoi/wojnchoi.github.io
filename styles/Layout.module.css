@@ -1,5 +1,5 @@
 .container {
-  min-height:70vh;
+  min-height:100h;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -12,10 +12,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 .about {
-  text-align: center;
 }
 .proejct {
 
@@ -30,6 +28,13 @@
   align-items: center;
 }
 
+.license {
+  font-size: 13px;
+  color: #2c0126;
+}
+.license:hover {
+  text-decoration: underline;
+}
 .footer img {
   margin-left: 0.5rem;
 }

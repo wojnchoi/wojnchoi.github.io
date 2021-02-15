@@ -42,6 +42,7 @@
 
 .list {
     float:left;
+    cursor: pointer;
 }
 
 .elementlink {
