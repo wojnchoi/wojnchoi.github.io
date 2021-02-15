@@ -22,9 +22,7 @@
     position: absolute;
     top: 0;
     left: 0;
-}
-.logotitle {
-    padding: 27px 32px 23px;
+    padding: 5px 30px 5px;
     box-sizing: border-box;
 }
 
@@ -35,7 +33,7 @@
 }
 
 .menu {
- margin: 0;
+ margin-top: 20px;;
  padding: 0;
  outline: none;
  float:left;
@@ -47,7 +45,7 @@
 }
 
 .elementlink {
+    font-size: 18px;
     padding: 27px 20px 23px;
-    font-size: 16px;
     display: inline;
 }
