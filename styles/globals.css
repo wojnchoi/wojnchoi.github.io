@@ -1,5 +1,7 @@
 html {
   font-family: "Roboto", "Noto Sans KR", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f7f9fb;
 }
 
 body, ul, li, h1 {
@@ -28,8 +30,6 @@ h1 {
 }
 ul {
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
@@ -40,8 +40,45 @@ li {
 }
 
 .active {
-  background-color: #000;
+  background-color: #fff;
 }
 .indicators {
   margin-right: 3em;
+}
+
+.arrows {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+}
+
+.arrows path {
+	stroke: #000000;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
 }

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 500px;
+  height: 910px;
 }
 
 .eachslide span {
@@ -15,6 +15,7 @@
 
 .eachslide {
   width: 100%;
+  background-color: black;
 }
 
 .indicator {
@@ -24,7 +25,9 @@
     padding: 0px;
     width: 7px;
     height: 7px;    
-    background-color: #fff;
+    background-color: #000;
     border-radius:10px;
     position: relative;
 }
+
+
