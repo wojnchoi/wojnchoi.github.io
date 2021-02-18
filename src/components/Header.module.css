@@ -1,0 +1,93 @@
+.header_wrapper {
+    position: sticky;
+    height: 0;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #111;
+}
+
+.transparent {
+    width: 100%;
+    min-width: 946px;
+    height: 74;
+    position: absolute;
+    background-color: transparent!important;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 30px 5px;
+    box-sizing: border-box;
+}
+
+.nav {
+    float: right;
+    max-height: 74px;
+    display: block;
+}
+
+.menu {
+ margin-top: 20px;;
+ padding: 0;
+ outline: none;
+ float:left;
+ display: block;
+}
+
+.list {
+    float:left;
+    cursor: pointer;
+}
+
+
+ul, li {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+a {
+  color:inherit;
+  text-decoration:none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+}
+li {
+  text-align: -webkit-match-parent;
+}
+
+
+/* Slider */
+.eachslide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 800px;
+}
+
+.eachslide span {
+  background: #efefef;
+}
+
+.eachslide {
+  width: 100%;
+}
+
