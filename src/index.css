@@ -37,9 +37,6 @@ body {
   position: relative;
   width: 100%;
   padding: 20px;
-  box-sizing: border-box;
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
   color: #000;
   background-color: #e6e6e6;
 }
@@ -50,17 +47,4 @@ body {
 .second-page {
   height: 90%;
   min-height: 90%;
-}
-.third-page {
-  height: 90%;
-  min-height: 90%;
-}
-.fourth-page {
-  height: 95%;
-  min-height: 95%;
-}
-.hint {
-  position: absolute;
-  bottom: 20%;
-  font-size: 16px;
 }

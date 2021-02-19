@@ -17,7 +17,7 @@ class App extends React.Component {
   bindScrollSnap() {
     const element = this.container.current
     const snapElement = new ScrollSnap(element, {
-      snapDestinationY: '90%',
+      snapDestinationY: '100%',
     })
 
     snapElement.bind(callback)
@@ -32,14 +32,11 @@ class App extends React.Component {
       <div id="container" ref={this.container}>
          <Header/>
           <Slider/>
-        <div className="page first-page">
-          <h1 style={{textAlign: "center"}}>printf(<a style={{color: "blue"}}>Hello World</a>\n);</h1>
-        </div>
-        <div className="page second-page">
+        <div className="page first-page" id="pjt">
           <Project className1="page first-page"className2="hint"/>
         </div>
-        <div className="page third-page">
-        <About className="page second-page"/>
+        <div className="page second-page" id="abt">
+          <About className="page second-page"/>
         </div>
       </div>
     )

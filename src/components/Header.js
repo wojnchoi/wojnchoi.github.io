@@ -16,7 +16,7 @@ const Header = () => {
         <div className={styles.header_wrapper}>
             <div className={styles.transparent}>
                 <p className={styles.description, styles.logo}>
-                    <a href="/"><code style={code}>#include&lt;woojin.h&gt;</code></a>
+                    <a href="/webpage"><code style={code}>#include&lt;woojin.h&gt;</code></a>
                 </p>
                 <nav className={styles.nav}>
                     <div className={styles.menu}>
