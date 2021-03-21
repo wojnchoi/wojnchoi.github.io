@@ -2,25 +2,24 @@ import styles from './Main.module.css'
 const About = (props) => {
     return (
         <div>
-           <h1>About</h1> 
+           <h1>page</h1> 
             <div className={styles.project}>
-                <p>I like to do...</p>
             <div className={styles.grid}>
                 <a href="#" className={styles.card}>
-                <h3>C/C++</h3>
-                <p>coding in c/c++</p>
+                <h3>element</h3>
+                <p></p>
                 </a>
                 <a href="#" className={styles.card}>
-                <h3>Book</h3>
-                <p>currently reading "1984"</p>
+                <h3>element</h3>
+                <p></p>
                 </a>
                 <a href="#" className={styles.card}>
-                <h3>AI/OS</h3>
-                <p>create AI along with OS that I developed</p>
+                <h3>element</h3>
+                <p></p>
                 </a>
                 <a href="#" className={styles.card}>
-                <h3>Soccer</h3>
-                <p>my fav sport but terrible player</p>
+                <h3>element</h3>
+                <p></p>
                 </a>
             </div>
             </div>

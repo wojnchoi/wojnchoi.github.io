@@ -2,9 +2,8 @@ import styles from './Main.module.css'
 const Project = (props) => {
     return (
         <div>
-            <h1>project</h1> 
+            <h1>page</h1> 
             <div className={styles.project}>
-                <p>I've been working on...</p>
             <div className={styles.grid}>
                 <a href="#" className={styles.card}>
                 <h3>element 1&rarr;</h3>
