@@ -16,13 +16,13 @@ const Header = () => {
         <div className={styles.header_wrapper}>
             <div className={styles.transparent}>
                 <p className={styles.description, styles.logo}>
-                    <a href="/webpage"><code style={code}>#include&lt;woojin.h&gt;</code></a>
+                    <a href="/webpage"><code style={code}>title</code></a>
                 </p>
                 <nav className={styles.nav}>
                     <div className={styles.menu}>
                         <ul className={styles.list}>
-                            <li style={element}><a href="#abt"><code style={code}>about();</code></a></li>
-                            <li style={element}><a href="#pjt"><code style={code}>project();</code></a></li>
+                            <li style={element}><a href="#abt"><code style={code}>page</code></a></li>
+                            <li style={element}><a href="#pjt"><code style={code}>page</code></a></li>
                         </ul>
                     </div>
                 </nav>
